@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>aiformula_keyop</name>
+  <version>1.0.0</version>
+  <description>
+    Keyboard teleoperation for AI-Formula: relays command from a keyboard to AI-Formula.
+  </description>
+
+  <author email="masima458@icloud.com">Shinnosuke Sakamoto</author>
+  <maintainer email="masima458@icloud.com">Shinnosuke Sakamoto</maintainer>
+  <license>OIT</license>
+
+  <!-- build system -->
+  <buildtool_depend>ament_cmake_ros</buildtool_depend>
+
+  <!-- dependencies -->
+  <depend>geometry_msgs</depend>
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>oit_interfaces</depend>
+  <depend>cmd_vel_mux</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
